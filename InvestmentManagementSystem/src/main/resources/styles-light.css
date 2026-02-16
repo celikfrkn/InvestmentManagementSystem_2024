@@ -1,0 +1,75 @@
+/* Light Mode CSS for 2025 Investment Management System */
+.root, .card, .dashboard-content {
+  -fx-background-color: #f4f6fa;
+  -fx-text-fill: #232a36;
+  -fx-font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  -fx-background-radius: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+}
+.header-bar {
+  -fx-background-color: #fff;
+  -fx-background-radius: 0 0 16px 16px;
+  -fx-padding: 24px 32px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+}
+.sidebar {
+  -fx-background-color: #fff;
+  -fx-background-radius: 16px 0 0 16px;
+  -fx-padding: 32px 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+}
+.button, .combo-box, .text-field {
+  -fx-background-color: #4f8cff;
+  -fx-text-fill: #fff;
+  -fx-background-radius: 8px;
+  -fx-font-size: 1em;
+  -fx-padding: 12px 24px;
+  -fx-effect: dropshadow(gaussian, rgba(79,140,255,0.08), 4, 0, 0, 1);
+}
+.button:hover, .combo-box:hover, .text-field:focused {
+  -fx-background-color: #2563eb;
+}
+.pie-chart, .bar-chart {
+  -fx-background-color: transparent;
+  -fx-background-radius: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+}
+.table-view {
+  -fx-background-color: #fff;
+  -fx-background-radius: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+  -fx-text-fill: #232a36;
+}
+.table-view .column-header-background {
+  -fx-background-color: #f4f6fa;
+  -fx-text-fill: #6b7280;
+  -fx-font-weight: bold;
+}
+.table-row-cell:filled:selected, .table-row-cell:filled:hover {
+  -fx-background-color: #4f8cff;
+  -fx-text-fill: #fff;
+}
+.alert-dialog {
+  -fx-background-color: #fff;
+  -fx-background-radius: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 8, 0, 0, 2);
+  -fx-text-fill: #232a36;
+}
+.status-success {
+  -fx-background-color: #2ecc71;
+  -fx-text-fill: #fff;
+  -fx-background-radius: 8px;
+  -fx-padding: 4px 12px;
+}
+.status-error {
+  -fx-background-color: #e74c3c;
+  -fx-text-fill: #fff;
+  -fx-background-radius: 8px;
+  -fx-padding: 4px 12px;
+}
+.footer {
+  -fx-text-fill: #a0aec0;
+  -fx-font-size: 12px;
+  -fx-padding: 16px 0 0 0;
+  -fx-alignment: center;
+} 
